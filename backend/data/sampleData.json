@@ -1,0 +1,30 @@
+{
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Prince Swami",
+      "email": "Prince.swami@email.com",
+      "grade": "Speaking Assessment",
+      "testDate": "2024-01-15",
+      "skills": {
+        "pronunciation": 7.5,
+        "fluency": 6.8,
+        "vocabulary": 8.2,
+        "grammar": 7.1
+      }
+    },
+    {
+      "id": "STU002",
+      "name": "Sarah ",
+      "email": "sarah@email.com",
+      "grade": "Speaking Assessment",
+      "testDate": "2024-01-15",
+      "skills": {
+        "pronunciation": 6.2,
+        "fluency": 7.4,
+        "vocabulary": 6.9,
+        "grammar": 7.8
+      }
+    }
+  ]
+}

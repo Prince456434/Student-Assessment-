@@ -1,0 +1,101 @@
+.report-header {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.student-info {
+  flex: 1;
+}
+
+.report-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0 0 16px 0;
+}
+
+.student-details {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
+
+.student-details p {
+  margin: 8px 0;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.score-display {
+  text-align: center;
+  padding: 24px;
+  border-radius: 8px;
+  min-width: 120px;
+}
+
+.score-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.score-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.score-excellent {
+  background-color: #dcfce7;
+}
+
+.score-excellent .score-value {
+  color: #16a34a;
+}
+
+.score-good {
+  background-color: #dbeafe;
+}
+
+.score-good .score-value {
+  color: #2563eb;
+}
+
+.score-fair {
+  background-color: #fef3c7;
+}
+
+.score-fair .score-value {
+  color: #d97706;
+}
+
+.score-poor {
+  background-color: #fee2e2;
+}
+
+.score-poor .score-value {
+  color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .report-title {
+    font-size: 1.5rem;
+  }
+}
