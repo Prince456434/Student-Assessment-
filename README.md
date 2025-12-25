@@ -127,7 +127,7 @@ getFeedback(score, skill) → returns descriptive feedback
 
 getRecommendations(skills) → returns improvement suggestions
 
->> **Project Structure**
+ **Project Structure**
 ├── backend/
 │   ├── controllers/
 │   │   └── reportController.js     # Handles API requests
