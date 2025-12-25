@@ -1,11 +1,11 @@
-**Student Speaking Assessment Report**
+>>**Student Speaking Assessment Report**
 
 This is a simple full-stack web application that shows a student’s speaking assessment report.
 It displays scores, detailed feedback, and improvement recommendations based on speaking performance.
 
 The project is built using React for the frontend and Node.js + Express for the backend, with data stored in a JSON file.
 
- **How to Run the Project**
+ >>**How to Run the Project**
 Prerequisites
 
 Make sure you have the following installed:
@@ -14,7 +14,7 @@ Node.js (v14 or above)
 
 npm
 
- **Backend Setup**
+ >>**Backend Setup**
 Go to the backend folder:
 
 cd backend
@@ -34,7 +34,7 @@ The backend will run at:
 
 http://localhost:5001
 
-** Frontend Setup**
+>>** Frontend Setup**
 
 Go to the frontend folder:
 
@@ -55,7 +55,7 @@ The frontend will open at:
 
 http://localhost:3002
 
-**Where the Scores Are Stored**
+>>**Where the Scores Are Stored**
 
 All student scores are stored in a local JSON file:
 
@@ -94,7 +94,7 @@ Example Data
   ]
 }
 
-**How the Feedback System Works**
+>>**How the Feedback System Works**
 
 The application automatically generates feedback based on score ranges.
 
@@ -108,7 +108,7 @@ Score Interpretation (0–9 scale)
 
 0 – 3.9 → Poor, needs significant improvement
 
-**Feedback Logic**
+>>**Feedback Logic**
 
 Overall score is calculated as the average of all skill scores.
 
@@ -116,7 +116,7 @@ Skill-wise feedback is generated for pronunciation, fluency, vocabulary, and gra
 
 Recommendations are provided based on weaker skills.
 
-**Implementation Details**
+>>**Implementation Details**
 
 Feedback logic is implemented in:
 
@@ -127,7 +127,7 @@ getFeedback(score, skill) → returns descriptive feedback
 
 getRecommendations(skills) → returns improvement suggestions
 
- **Project Structure**
+>> **Project Structure**
 ├── backend/
 │   ├── controllers/
 │   │   └── reportController.js     # Handles API requests
@@ -154,8 +154,8 @@ getRecommendations(skills) → returns improvement suggestions
 │
 └── README.md
 
-**Features Implemented**
-**Frontend**
+>>**Features Implemented**
+>>**Frontend**
 
 Clean and modern report UI
 
@@ -169,7 +169,7 @@ Responsive layout for mobile and desktop
 
 Loading and error states handled gracefully
 
-**Backend**
+>>**Backend**
 
 REST API built with Express
 
@@ -177,7 +177,7 @@ JSON-based data storage
 
 No authentication (simple and lightweight)
 
- **API Endpoints**
+ >>**API Endpoints**
 
 GET /api/report/:studentId → Fetch report for a specific student
 
@@ -185,7 +185,7 @@ GET /api/reports → Fetch all student reports
 
 GET /api/health → Health check endpoint
 
-**Technologies Used**
+>>**Technologies Used**
 
 Frontend: React, HTML5, CSS3
 
@@ -195,7 +195,7 @@ Data Storage: JSON file
 
 Styling: Custom CSS with responsive design
 
-** UI Highlights**
+>>** UI Highlights**
 
 Gradient background
 
